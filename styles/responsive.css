@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px){
+    .habbit-card{
+        
+        grid-template-columns: repeat(1,1fr);
+        width: 60%;
+        margin-top: 5vw;
+        
+    }
+    .habbit-title{
+        width: 100%;
+    }
+    .section-habbit{
+        
+        margin-top: 0;
+    }
+    .card{
+        margin-bottom: 3vw;
+    }
+}
