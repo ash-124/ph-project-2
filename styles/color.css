@@ -180,14 +180,14 @@ margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+    gap: 30px;
     text-align: center;
     
 }
 .card-text{
     display: flex;
     flex-direction: column;
-    gap: 6px; ;
+    gap: 6px; 
 }
 .card h3{
     color: rgb(255, 255, 255);
