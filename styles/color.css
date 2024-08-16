@@ -382,6 +382,25 @@ font-weight: 400;
     background-color: rgba(66, 255, 0, 0.3);
 }
 
+/* bmi calculator section starts here  */
+
+.bmi-title{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+.bmi-title h3{
+    color: rgb(255, 255, 255);
+    font-size: 4.2vw;
+    font-weight: 900;
+   
+}
+.bmi-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2vw;
+    font-weight: 400;
+}
 
 
 
