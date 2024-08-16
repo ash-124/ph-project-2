@@ -401,6 +401,124 @@ font-weight: 400;
     font-size: 1.2vw;
     font-weight: 400;
 }
+.bmi-container{
+    width: 100%;
+    padding:4.4vw 0;
+    background-color:rgb(34, 34, 34);
+    margin-top: 8vw;
+
+}
+.bmi-content{
+    width: 80%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bmi-chart, .bmi-calculator{
+    width: 45%;
+    height: 60%;
+    text-align: left;
+    
+}
+
+.bmi-chart{
+    position: relative;
+}
+ .table{
+    width: 100%;
+    height: 80%;
+   
+}
+.table table{
+    border-collapse: collapse;
+    width: 70%;
+    height: 100%;
+    margin-top: 10%;
+}
+.bmi-chart th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-left: 2vw;
+    padding: 2%;
+}
+.bmi-chart td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.15vw;
+    font-weight: 400;
+}
+.bmi-chart h2{
+    width: 68%;
+  
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 2.2vw;
+    font-weight: 900;
+}
+
+
+.bmi-instruction{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.2vw;
+   
+}
+.bmi-instruction h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.3vw;
+    font-weight: 900;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  
+}
+.bmi-instruction p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2vw;
+    font-weight: 400;
+    
+}
+.form-content{
+    margin: 2vw 0;
+}
+.form-group {
+
+    display: flex;
+    justify-content:space-between; 
+    margin-bottom: 2%;
+   
+}
+
+.form-group input, .form-group select 
+    {
+    width: 49%;
+    padding: 0.7vw;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+button{
+    width:20vw;
+    height: 4.9vw;
+    padding: 1.2vw 3vw ;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.4vw;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+
+}
+    
 
 
 
