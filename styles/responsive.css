@@ -16,6 +16,41 @@
     .card{
         margin-bottom: 3vw;
     }
+    .run-extra{
+        flex-direction: column;
+        gap:2vw ;
+        width: 95%;
+        padding: 3vw ;
+    }
+    .run-extra-text{
+        width: 90%;
+         height:50vw;
+         margin-left:20%;
+
+    }
+    .run-extra-text p{
+        width: 80%;
+        font-size: 2.5vw;
+    }
+    .run-extra-img{
+        width: 80%;
+        height: 40vw;
+       
+        
+    }
+    .run-extra-img img{
+        width: 100%;
+        transform: scale(1.2);
+        top: 0%;
+        left: -10%;
+        border-radius: 14px;
+    }
+    .join{
+        width: 80%;
+        padding: 2.5vw 0;
+       justify-content:space-evenly;
+    }
+  
 }
 @media screen and (min-width:576px) and (max-width:768px){
     .habbit-card{    
@@ -36,4 +71,12 @@
         
         margin-top: 5vw;
     }
+    .run-extra{
+       width: 95%;
+    }
+    .run-extra-img img{
+        transform: scale(2);
+        left: -25%;
+    }
+
 }
