@@ -48,13 +48,41 @@
     }
     .join{
         width: 80%;
-        padding: 2.5vw 0;
+        padding: 1.8vw 0;
        justify-content:space-evenly;
     }
     .section-trainings{
         width: 95%;
        
     }
+    .training-title {
+        width: 100%;
+    }
+
+    .bmi-title{
+        width: 100%;
+    }
+    .bmi-content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .bmi-calculator{
+        width: 100%;
+     }
+     .bmi-instruction{
+         width: 100%;
+     }
+     .form-group {
+         margin-bottom:1%;
+        
+     }
+     .bmi-chart{
+         width: 100%;
+     }
+     .bmi-title{
+         width: 100%;
+     }
+
 }
 @media screen and (min-width:576px) and (max-width:768px){
     .habbit-card{    
@@ -98,5 +126,25 @@
     .img-3{
         display: none;
     }
-
+    .bmi-content{
+        width: 95%;
+        flex-direction: column;
+        gap: 5.5vw;
+    }
+    .bmi-calculator{
+       width: 100%;
+    }
+    .bmi-instruction{
+        width: 100%;
+    }
+    .form-group {
+        margin-bottom:1%;
+       
+    }
+    .bmi-chart{
+        width: 60%;
+    }
+    .bmi-title{
+        width: 100%;
+    }
 }
