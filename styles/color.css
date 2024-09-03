@@ -585,7 +585,7 @@ footer{
 }
 .fitness{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.8rem;
+    font-size: 14px;
     font-weight: 400;
 }
 .fitness h1{
@@ -594,6 +594,10 @@ footer{
     font-weight: 800;
     margin-bottom: 20px;
     
+}
+.get-started-container{
+    display: flex;
+    gap: 13vw;
 }
 .get-started{
     color: rgba(255, 255, 255, 0.5);
@@ -620,7 +624,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:3vw 0;
+    padding:2vw 0;
 }
 
 

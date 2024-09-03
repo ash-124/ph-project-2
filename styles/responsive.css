@@ -88,13 +88,16 @@
         
     }
     .card-2,.card-5{
-        visibility: none;
+        display: none;
     }
     .footer-container{
         
        flex-direction: column;
        gap: 1.5rem;
        width: 95%;
+    }
+    .get-started-container{
+      flex-direction: column;
     }
     .rights{
         font-size: 3vw;
@@ -163,5 +166,9 @@
     }
     .bmi-title{
         width: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 100px;
     }
 }
