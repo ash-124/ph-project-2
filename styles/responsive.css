@@ -90,6 +90,15 @@
     .card-2,.card-5{
         visibility: none;
     }
+    .footer-container{
+        
+       flex-direction: column;
+       gap: 1.5rem;
+       width: 95%;
+    }
+    .rights{
+        font-size: 3vw;
+    }
 
 }
 @media screen and (min-width:576px) and (max-width:768px){
