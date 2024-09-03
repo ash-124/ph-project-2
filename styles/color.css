@@ -392,20 +392,21 @@ font-weight: 400;
 }
 .bmi-title h3{
     color: rgb(255, 255, 255);
-    font-size: 4.2vw;
+    font-size: 3rem;
     font-weight: 900;
+    margin-bottom: 14px;
    
 }
 .bmi-title p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 .bmi-container{
     width: 100%;
-    padding:4.4vw 0;
+    padding:3rem 0;
     background-color:rgb(34, 34, 34);
-    margin-top: 8vw;
+    margin-top: 5rem;
 
 }
 .bmi-content{
@@ -425,6 +426,7 @@ font-weight: 400;
 
  .table{
     width: 100%;
+    font-size: 14px;
     
    
 }
@@ -438,14 +440,14 @@ font-weight: 400;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
     color: rgb(255, 255, 255);
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     font-weight: 500;
-    margin-left: 2vw;
+    margin-left: 1.5rem;
     padding: 2%;
 }
 .bmi-chart td {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.15vw;
+    font-size: 0.75rem;
     font-weight: 400;
 }
 .bmi-chart h2{
@@ -453,7 +455,7 @@ font-weight: 400;
   
     margin: 0;
     color: rgb(255, 255, 255);
-    font-size: 2.2vw;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
@@ -468,7 +470,7 @@ font-weight: 400;
 }
 .bmi-instruction h2{
     color: rgb(255, 255, 255);
-    font-size: 2.3vw;
+    font-size: 1.5rem;
     font-weight: 900;
     width: 80%;
     margin: 0;
@@ -477,12 +479,12 @@ font-weight: 400;
 }
 .bmi-instruction p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     font-weight: 400;
     
 }
 .form-content{
-    margin: 2vw 0;
+    margin: 1.5rem 0;
 }
 .form-group {
 
@@ -490,22 +492,23 @@ font-weight: 400;
     justify-content:space-between; 
     margin-bottom: 2%;
    
+   
 }
 
 .form-group input, .form-group select 
     {
     width: 49%;
-    padding: 0.7vw;
+    padding: 13px 20px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 1.4vw;
+    font-size: 1rem;
     font-weight: 400;
 }
 button{
 
-    padding: 1vw 5vw ;
+    padding: 12px 56px ;
     border: none;
     color: rgb(255, 255, 255);
     font-size: 1rem;
