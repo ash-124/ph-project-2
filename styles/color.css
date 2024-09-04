@@ -13,11 +13,11 @@ body{
 
 
 .inner-structure{
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
     border: 2px solid green;
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;    
 }
 /* nav bar styles start here  */
@@ -29,14 +29,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .nav-content ul >li {
     list-style-type: none;
 }
 .nav-title{
     color: rgb(230, 83, 60);
-    font-family: Inter;
-    font-size: 3vw;
+    font-size: 2.25rem;
     font-weight: 800;
 
 }
@@ -58,6 +58,12 @@ header{
     color: white;
     padding: 0.5vw 2vw;
     font-weight: 600;
+}
+.nav-icon{
+    width: 24px;
+    height: 24px;
+    color: white;
+    display: none;
 }
 /* banner style start here  */
 .hero-section{
