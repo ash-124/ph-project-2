@@ -18,7 +18,8 @@ body{
     border: 2px solid green;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;    
+    gap: 2rem;
+    /* justify-content: space-between;     */
 }
 /* nav bar styles start here  */
 header{
@@ -71,51 +72,77 @@ header{
     justify-content: space-between;
     border: 2px solid yellow;
     margin-top: 20px;
+    height: 84%
 
+}
+.banner-text-container{
+    width: 55%;
+    display: flex;
+    align-items: center;
 }
 
 .banner-text{
-    width: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
     border: 1px solid blue;
     color: white;
-}
-.healthy{
-   /* Get body in shape & stay healthy */
-
-width: 100%;
-height: 282px;
-border: 2px solid red;
-
-
+    width: 90%;
+    height:78%;
 }
 .healthy-content{
-    padding: 0px;
-align-self: stretch;
+padding: 0px;
 color: rgb(255, 255, 255);
-/* font-size: 7vw; */
+font-size: 6vw;
 font-weight: 900;
-line-height: 120%;
-letter-spacing: 0%;
 text-align: left;
+line-height: 100%;
+letter-spacing: 0%;
 }
+.healthy-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+#download-btn{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+.health-button button{
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
+/* Image section of banner */
 .banner-img{
-    width: 40%;
+    width: 45%;
     border: 1px solid yellow;
     text-align: center;
     position: relative;
 }
 .banner-img img{
     
-    width:50% ;
+    width:90% ;
+    height: 110%;
+    position: absolute;
+    left: 5%;
+    top: -10%;
     
 }
 
 .tag-1{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    width: 19vw;
-/* height:8vw; */
-color: white;
+    padding: 16px 24px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
@@ -124,8 +151,8 @@ color: white;
     left: 10%;
 }
 .color-circle{
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
 
@@ -133,10 +160,14 @@ color: white;
 .tag-2{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.077);
-    width: 19vw;
-    height:8vw;
-    color: white;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 16px 24px;
     border-radius: 12px;
     backdrop-filter: blur(20px);
     
@@ -512,7 +543,7 @@ font-weight: 400;
     font-size: 1rem;
     font-weight: 400;
 }
-button{
+.bmi-calculator button{
 
     padding: 12px 56px ;
     border: none;
