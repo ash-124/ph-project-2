@@ -1,32 +1,53 @@
 @media screen and (max-width: 576px){
 
+    header{
+        height: auto;
+    }
+
     .inner-structure{
         width: 95%;
     }
     .hero-section{
        flex-direction: column;
+      
     
     }
+    .healthy-content{
+        font-size: 12vw;
+    }
+
     .banner-text-container{
         width: 100%;
        
     }
     .health-button{
         display: flex;
+        gap: 10px;
     }
     .health-button button{
-        font-size: 2.5vw;
+        font-size: 4vw;
+        padding: 3vw 4vw;
     }
     .banner-img img{
     
         
         position: static;
-      
+        width: 80%;
+        height: 80%;
         
     }
     .banner-img{ 
-        position: static;
         width: 100%;
+        
+    }
+    .color-circle{
+        width: 1.8rem;
+        height:1.8rem ;
+       
+    
+    }
+    .section-habbit{
+        margin-top:0%;   
     }
     .nav-icon{
         display: block;
@@ -141,7 +162,49 @@
     }
 
 }
-@media screen and (min-width:576px) and (max-width:768px){
+@media screen and (min-width:576px) and (max-width:769px){
+    header{
+        height: auto;
+    }
+
+    .inner-structure{
+        width: 95%;
+    }
+    .hero-section{
+       flex-direction: column;
+      
+    
+    }
+    .healthy-content{
+        font-size: 10vw;
+    }
+
+    .banner-text-container{
+        width: 100%;
+       
+    }
+    .health-button{
+        display: flex;
+        gap: 10px;
+    }
+    .health-button button{
+        font-size: 2vw;
+        padding: 2vw 3vw;
+    }
+    .banner-img img{
+    
+        
+        position: static;
+        width: 80%;
+        height: 50%;
+        
+    }
+    .banner-img{ 
+        width: 100%;
+        
+    }
+ 
+
     .habbit-card{    
         grid-template-columns: repeat(2,1fr);
         width: 100%;  

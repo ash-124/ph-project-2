@@ -13,6 +13,7 @@ body{
 
 .header-container{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+   
 }
 .inner-structure{
     width: 80%;
@@ -20,12 +21,15 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    
 }
 /* nav bar styles start here  */
 header{
     height: 100vh;
 }
-
+.nav-container{
+    margin-top: 4vw;
+}
 .nav-content{
     display: flex;
     justify-content: space-between;
@@ -49,9 +53,9 @@ header{
     border-radius:  50px;
 
     color: rgb(255, 255, 255);
-    font-size: 1.25vw;
+    font-size: 0.8rem;
     font-weight: 300;
-    padding: .6vw;
+    padding: .5rem;
 }
 .odvut{
     border-radius: 46px;
@@ -71,7 +75,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    height: 84%
+    height: 100%;
 
 }
 .banner-text-container{
@@ -136,7 +140,7 @@ letter-spacing: 0%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 16px 24px;
+    padding: 1.5vw 2.2vw;
     color: rgba(255, 255, 255, 0.65);
     font-size: 13px;
     font-weight: 400;
@@ -148,8 +152,8 @@ letter-spacing: 0%;
     left: 10%;
 }
 .color-circle{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.5rem ;
+    height: 2.5rem ;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
 
@@ -164,7 +168,7 @@ letter-spacing: 0%;
     color: rgba(255, 255, 255, 0.65);
     font-size: 13px;
     font-weight: 400;
-    padding: 16px 24px;
+    padding: 1.8vw 2.4vw;
     border-radius: 12px;
     backdrop-filter: blur(20px);
     
@@ -172,6 +176,11 @@ letter-spacing: 0%;
     position: absolute;
     top: 30%;
     right: 5%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
 }
 
 /* habbit section starts here */
